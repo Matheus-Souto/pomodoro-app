@@ -3,10 +3,10 @@ import TimerHeader from "./TimerHeader"
 
 const TimerPage = () => {
     return (
-        <div className="w-screen h-screen ">
+        <div className="">
             <TimerHeader />
-            <div className="h-[60vh] flex flex-col items-center justify-center">
-                <Timer />
+            <div className="h-[60vh] flex flex-col items-center justify-center mt-6">
+                <Timer duration={1500}/>
             </div>
         </div>
 
